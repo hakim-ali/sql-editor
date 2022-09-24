@@ -11,8 +11,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
-    "test": "jest",
-    "server": "cross-env NODE_ENV=development nodemon server/index.js server=true --watch server"
+    "test": "jest"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
