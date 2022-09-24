@@ -13,7 +13,7 @@
       ref="textInput"
       v-model="text"
       filled
-      rows="10"
+      rows="5"
       name="input-7-4"
       label="Please enter @ to select table"
       hint="Type @ to select table name and choose by [column1, colums2]"
